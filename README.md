@@ -23,7 +23,7 @@ This project is a simple Mandelbrot set plotter written in C++ using SDL2. The M
 
 1. Ensure you have the SDL2 library installed. You can download it from [SDL2 Downloads](https://www.libsdl.org/download-2.0.php) or using MSYS
    ```sh
-      pacman -S mingw-w64-x86_64-SDL2
+   pacman -S mingw-w64-x86_64-SDL2
 3. Clone this repository or download the source code.
 4. Open a terminal or command prompt and navigate to the directory containing the source code.
 5. Compile the code using the following command:
