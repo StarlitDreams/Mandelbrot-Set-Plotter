@@ -29,7 +29,6 @@ This project is a simple Mandelbrot set plotter written in C++ using SDL2. The M
    ```sh
    g++ -fdiagnostics-color=always -g path_to_your_source_code/mandelbrot.cpp -o path_to_your_output_directory/mandelbrot.exe -Ipath_to_sdl2_include -Lpath_to_sdl2_lib -lmingw32 -lSDL2main -lSDL2 -mconsole
 
-
 ## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
