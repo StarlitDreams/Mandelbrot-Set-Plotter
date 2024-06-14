@@ -57,7 +57,7 @@ int main(int argc, char* argv[]) {
     }
 
     SDL_RenderPresent(renderer);
-    SDL_Delay(1000000000);
+    SDL_Delay(1000);
 
 
     SDL_DestroyRenderer(renderer);
@@ -66,6 +66,3 @@ int main(int argc, char* argv[]) {
 
     return 0;
 }
-
-
-// g++ -fdiagnostics-color=always -g C:\Github\Mandelbrot-Set-Plotter\mandelbrot.cpp -o C:\Github\Mandelbrot-Set-Plotter\mandelbrot.exe -IC:/msys64/mingw64/include/SDL2 -LC:/msys64/mingw64/lib -lmingw32 -lSDL2main -lSDL2 -mconsole
